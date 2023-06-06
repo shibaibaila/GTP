@@ -38,9 +38,6 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="系统__父类.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="teacher.cpp">
       <Filter>源文件</Filter>
     </ClCompile>

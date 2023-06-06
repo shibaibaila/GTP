@@ -12,5 +12,13 @@ int deng_lu_界面::deng_lu()
 		if (jie.an_niu("老师登录", 580, 240, 780, 340))
 			return 1;
 	}
-	return 0;
+	//return 0;
+}
+
+void deng_lu_界面::yun_shi_jiemian()
+{
+	IMAGE tu[11];
+	//initgraph(880, 500, 0);
+	loadimage(tu, "背景图片.png", 880, 500);
+	putimage(0, 0, tu);
 }
